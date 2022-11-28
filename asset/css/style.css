@@ -17,6 +17,10 @@ ul,li{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.black{
+    background: #000;
+}
+
 .logo h1{
     color: #fff;
     float: left;
