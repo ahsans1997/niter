@@ -132,10 +132,16 @@ ul,li{
     border-radius: 5px;
 }
 
+.news-header h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
 
-
-
-
-.news{
-    height: 500px;
+.news-header p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
 }
