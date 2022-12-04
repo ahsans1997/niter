@@ -156,7 +156,26 @@ ul,li{
 .news-banner-6 img{
     height: 350px;
     width: 100%;
+    position: relative;
 }
+.news-image-body{
+    position: absolute;
+    margin-top: -115px;
+    width: 550px;
+    height: 115px;
+    background: linear-gradient(360deg, rgba(0,0,0,.8), rgba(0,0,0,0)100%);
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+.news-image-body p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.news-image-body h4{
+    color: #fff;
+    margin-left: 30px;
+}
+
 .news{
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
