@@ -8,6 +8,10 @@ ul,li{
     list-style: none;
 }
 
+.color-black{
+    color: #000;
+}
+
 /* Header start */
 
 .header{
@@ -27,12 +31,12 @@ ul,li{
 }
 
 .black{
-    background: #B1040E;
+    background: #8FFFB8;
 }
 
 .logo img{
     float: left;
-    width: 355px;
+    width: 290px;
 }
 .search{
     float: right;
@@ -92,15 +96,17 @@ ul,li{
 
 .accelerating-climate-solutions-header h2{
     text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.25em;
 }
 
 .accelerating-climate-solutions-header p{
     text-align: center;
-    font-size: 18px;
+    font-size: 27px;
     font-weight: 500;
     margin-bottom: 50px;
+    padding: 0 85px;
 }
 
 .accelerating-climate-solutions img{
@@ -110,17 +116,18 @@ ul,li{
 
 .accelerating-climate-solutions h3{
     margin-top: 20px;
+    font-weight: 600;
 }
 
 .seven-schools-in-which-to-pursue-your-passions h3{
     text-align: center;
     margin-top: 70px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .seven-schools-in-which-to-pursue-your-passions ul{
-    padding: 10px 128px;
+    padding: 10px 123px;
 }
 .seven-schools-in-which-to-pursue-your-passions ul li{
     float: left;
@@ -132,7 +139,7 @@ ul,li{
     border-right: none;
 }
 .seven-schools-in-which-to-pursue-your-passions ul li a{
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -157,13 +164,13 @@ ul,li{
 .news-header h2{
     text-align: center;
     margin-top: 50px;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 900;
 }
 
 .news-header p{
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 500;
     text-align: center;
 }
@@ -199,14 +206,14 @@ ul,li{
     text-decoration: none;
 }
 .news-image-body h4 a:hover{
-    color: blue;
+    color: #fff;
 }
 .news-banner-body h5 a{
     color: #000;
     text-decoration: none;
 }
 .news-banner-body h5 a:hover{
-    color: blue;
+    color: #006CB8;
 }
 
 .news{
@@ -229,6 +236,7 @@ ul,li{
 }
 .news-banner-body{
     padding: 24px;
+    background-color: #fff;
 }
 .news-footer h4{
     text-align: center;
@@ -250,13 +258,13 @@ ul,li{
 .research-top h3{
     text-align: center;
     margin-top: 50px;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 900;
 }
 .research-top p{
     text-align: center;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 500;
 }
 .research-info{
@@ -318,8 +326,9 @@ ul,li{
 .event-header h3{
     text-align: center;
     margin-top: 50px;
-    font-size: 25px;
-    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 900;
     color: #fff;
 }
 .event{
@@ -393,13 +402,13 @@ ul,li{
 .h-about-header h3{
     text-align: center;
     margin-top: 50px;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 900;
 }
 .h-about-header p{
     margin-top: 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .h-about-body{
@@ -407,9 +416,12 @@ ul,li{
 }
 .h-about-body h5{
     text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
 .h-about-body h3{
     text-align: center;
+    font-weight: 900;
 }
 .h-about-link{
     margin-top: 60px;
@@ -423,6 +435,7 @@ ul,li{
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
+    font-size: 30px;
 }
 .h-about-link h5 a:hover{
     background-color: #502828;
@@ -433,7 +446,7 @@ ul,li{
 .social-link{
     background-color: #F4F4F4;
     height: 50px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .social-link ul{
     float: right;
@@ -472,7 +485,7 @@ ul,li{
     float: left;
 }
 .footer-left img{
-    width: 415px;
+    width: 370px;
     margin-top: 10px;
 }
 
