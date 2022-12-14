@@ -149,14 +149,13 @@ ul,li{
 }
 .seven-schools-in-which-to-pursue-your-passions h5 a{
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 80px;
     color: white;
-    background-color: #401e1e;
-    border: 1px solid #000;
-    border-radius: 5px;
+    background-color: #b1040e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
 }
 .seven-schools-in-which-to-pursue-your-passions h5 a:hover{
-    background-color: #502828;
+    background-color: #820000;
 }
 
 /* News Start */
@@ -238,21 +237,19 @@ ul,li{
     padding: 24px;
     background-color: #fff;
 }
-.news-footer h4{
+.news-footer h5{
     text-align: center;
     margin-top: 55px;
 }
-.news-footer h4 a{
-    padding: 15px 20px;
-    background-color: #401e1e;
-    border: 1px solid #000;
-    border-radius: 5px;
+.news-footer h5 a{
+    padding: 15px 40px;
+    background-color: #b1040e;
     color: white;
     text-decoration: none;
-    line-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
 }
-.news-footer h4 a:hover{
-    background-color: #502828;
+.news-footer h5 a:hover{
+    background-color: #820000;
 }
 /* Research Start */
 .research-top h3{
@@ -304,21 +301,19 @@ ul,li{
     transform: scale(1.1);
     transition: .3s;
 }
-.research-footer h4{
+.research-footer h5{
     text-align: center;
-    margin-top: 55px;
+    margin-top: 110px;
 }
-.research-footer h4 a{
-    padding: 15px 20px;
-    background-color: #401e1e;
-    border: 1px solid #000;
-    border-radius: 5px;
+.research-footer h5 a{
+    padding: 15px 65px;
+    background-color: #b1040e;
     color: white;
     text-decoration: none;
-    line-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
 }
-.research-footer h4 a:hover{
-    background-color: #502828;
+.research-footer h5 a:hover{
+    background-color: #820000;
 }
 
 /* Upcoming Events */
@@ -387,14 +382,14 @@ ul,li{
     margin-top: 85px;
 }
 .more-event a{
-    padding: 10px 20px;
-    background-color: #cb1919;
+    padding: 10px 75px;
+    background-color: #b1040e;
     text-decoration: none;
     color: #fff;
-    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
 }
 .more-event a:hover{
-    background-color: #da1c1c;
+    background-color: #820000;
 }
 
 /* About */
@@ -428,17 +423,20 @@ ul,li{
 }
 .h-about-link h5{
     text-align: center;
+    margin-bottom: 75px;
 }
 .h-about-link h5 a{
-    padding: 10px 15px;
-    background-color: #401e1e;
+    padding: 10px 75px;
+    background-color: #b1040e;
     color: #fff;
-    border-radius: 5px;
     text-decoration: none;
-    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
 }
 .h-about-link h5 a:hover{
-    background-color: #502828;
+    background-color: #820000;
+}
+.h-about-image img{
+    width: 100%;
 }
 
 /* footer */
@@ -466,13 +464,10 @@ ul,li{
     margin-top: 40px;
 }
 .footer h4{
-    text-align: center;
     font-size: 35px;
     color: #820000;
 }
-.footer ul{
-    text-align: center;
-}
+
 .footer ul li a{
     text-decoration: none;
     color: #000;
@@ -498,7 +493,7 @@ ul,li{
     padding: 10px;
 }
 .footer-right ul li a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .footer-right ul li a:hover{
